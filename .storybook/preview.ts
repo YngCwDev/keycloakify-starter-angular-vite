@@ -2,7 +2,7 @@ import { type Preview } from '@analogjs/storybook-angular';
 
 /** import here your global style if needed
  *
- * import '../src/styles.css';
+ * import '../src/main.css';
  *
  */
 

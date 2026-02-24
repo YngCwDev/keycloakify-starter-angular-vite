@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, inject, type OnInit, type Type } from '@angular/core';
 import { provideKeycloakifyAngular } from '@keycloakify/angular/login/providers/keycloakify-angular';
-import { TemplateComponent } from '@keycloakify/angular/login/template';
+import { TemplateComponent } from './template/template.component';
 import { KC_LOGIN_CONTEXT } from '@keycloakify/angular/login/tokens/kc-context';
 import { createGetKcContextMock } from 'keycloakify/login/KcContext';
 import { kcEnvDefaults, themeNames } from '../kc.gen';

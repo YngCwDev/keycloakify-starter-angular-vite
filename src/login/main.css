@@ -1,0 +1,38 @@
+
+@import "tailwindcss";
+
+
+
+.body{
+    background-color: #fff;
+    background: #fff;
+    background-image: #ffff;
+}
+
+.kcBodyClass{
+    background-color: #fff !important;
+    background: #fff !important;
+    background-image: #ffff !important;
+}
+
+.kcFormCardClass{
+  border-radius: 2%;
+  border-top: 2px solid #008C64;
+  border-bottom: 2px solid #008C64;
+}
+
+
+.kcButtonClass{
+  padding: 10px;
+  border-radius: 5px;
+  background: #008C64 !important;
+
+}
+
+.kcHeaderWrapperClass{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
