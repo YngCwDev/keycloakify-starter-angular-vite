@@ -18,7 +18,7 @@ export default defineConfig(({mode}) => ({
     angular(),
     tailwindcss(),
     keycloakify({
-      accountThemeImplementation: 'none',
+      accountThemeImplementation: 'Multi-Page',
     }),
   ],
 }));

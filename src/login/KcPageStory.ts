@@ -64,7 +64,6 @@ export class KcPageStory implements OnInit {
   ngOnInit() {
     getKcPage(this.kcContext.pageId).then((kcPage) => {
       this.pageComponent = kcPage.PageComponent;
-      this.userProfileFormFieldsComponent = kcPage.UserProfileFormFieldsComponent;
       this.#cd.markForCheck();
     });
   }
